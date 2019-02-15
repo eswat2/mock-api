@@ -4,8 +4,8 @@
   "description": "",
   "main": "api/index.js",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "npx json-server --watch data/db.json --port 5555",
+    "start": "node app.js",
+    "dev": "npx json-server --watch db.json --port 5555",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
